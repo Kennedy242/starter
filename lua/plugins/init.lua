@@ -59,4 +59,17 @@ return {
       end)
     end,
   },
+
+  {
+    "nvim-tree/nvim-tree.lua",
+    opts = {
+      view = {
+        width = {},
+        centralize_selection = true,
+        float = {
+          enable = true,
+        },
+      },
+    },
+  },
 }
