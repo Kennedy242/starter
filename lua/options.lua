@@ -2,6 +2,10 @@ require "nvchad.options"
 
 -- add yours here!
 vim.opt.mouse = "" -- disable mouse
+vim.opt.spelllang = "en_us"
+vim.opt.spell = true
+vim.opt.number = true
+vim.opt.relativenumber = true
 
 -- local o = vim.o
 -- o.cursorlineopt ='both' -- to enable cursorline!
