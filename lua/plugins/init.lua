@@ -23,6 +23,19 @@ return {
   -- 	},
   -- },
 
+  {
+    "nvim-tree/nvim-tree.lua",
+    opts = {
+      view = {
+        width = {},
+        centralize_selection = true,
+        float = {
+          enable = true,
+        },
+      },
+    },
+  },
+
   -- UFO folding
   {
     "kevinhwang91/nvim-ufo",
