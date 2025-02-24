@@ -15,3 +15,5 @@ map("n", "N", "Nzz")
 -- map("n", "k", "kzz")
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
+-- map(<mode>, <keystroke>, <command to run>, {<other lua things, in this case just giving it a description to display>})
+

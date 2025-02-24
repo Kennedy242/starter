@@ -2,6 +2,8 @@ require "nvchad.options"
 
 -- add yours here!
 vim.opt.mouse = "" -- disable mouse
+
+vim.opt.backupcopy = "yes" -- Angular hot reload
 vim.opt.spelllang = "en_us"
 vim.opt.spell = true
 vim.opt.number = true

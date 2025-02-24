@@ -6,12 +6,22 @@
 local M = {}
 
 M.base46 = {
-       theme = "chadracula-evondev",
+       theme = "tokyonight",
+}
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },
 	-- },
+M.term = {
+  float = {
+    relative = "editor",
+    row = 0.3,
+    col = 0.3,
+    width = 0.9,
+    height = 0.9,
+    border = "single",
+  },
 }
 
 M.nvdash = { load_on_startup = true }
@@ -20,5 +30,8 @@ M.nvdash = { load_on_startup = true }
 --          lazyload = false
 --      }
 --}
+require("gitsigns").setup {
+  current_line_blame = true,
+}
 
 return M
