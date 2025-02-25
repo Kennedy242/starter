@@ -84,4 +84,13 @@ return {
     end,
   },
 
+  {
+    "vinnymeller/swagger-preview.nvim",
+    cmd = { "SwaggerPreview", "SwaggerPreviewStop", "SwaggerPreviewToggle" },
+    opts = {
+      port = 8000,
+      host = "localhost",
+    },
+  },
+
 }
